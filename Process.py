@@ -1,20 +1,24 @@
+# This is the second class of the project
 from read import Read
 import csv
 from datetime import datetime
+
+# This class will allow the user to choose the desired location and retrieve data from that location only
+
 class Processing(Read):
     def __init__(self):
-        self.errorhighs = []
+        self.errorhighs = [] # Both error lists will get the index of missing data so it will be graph later
         self.errorlows = []
         self.chose =''
         self.revise_choice = ''
-        self.highs = []
+        self.highs = [] # Both highs and lows lists will contain raw data from the csv file
         self.lows = []
         self.dates = []
-        self.final_highs = []
+        self.final_highs = [] # Both final lists will contain formatted raw data to be use when graphing
         self.final_lows = []
         super().__init__()
 
-    # Take user input to select a specific chunk of the data
+    # Take user input to select a specific locations of the file while also allowing them to quit
     def Choosing(self):
         self.chose = input("Please enter the number associated with the location you want to see:")
         self.revise_choice = self.chose
@@ -50,11 +54,12 @@ class Processing(Read):
                     low = row[5]
                     self.lows.append(low)
 
+                    
     def formatting_numbers(self):
         x = 0
         y = 0
-        # Because the current csv file has numerical string items and missing data
-        # write code that convert these strings to int and marked missing data to graph them later on
+        # Because the ct_weather csv file has strings instead of numerical values and missing data
+        # This function will convert these strings to int and store the indexes of missing data
         for i, item in enumerate(self.highs):
             try:
                 x_revise = self.highs[x]
