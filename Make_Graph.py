@@ -1,3 +1,4 @@
+# The final class for this project
 from Process import Processing
 from matplotlib import pyplot as p
 
