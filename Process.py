@@ -38,7 +38,7 @@ class Processing(Read):
                 self.revise_choice = input("Please enter the number again\nEnter quit to end:")
         self.chose = self.revise_choice
 
-    # Get the selected data
+    # Get raw data from selected location
     def get_data(self):
         with open(self.file) as f:
             reader = csv.reader(f)
