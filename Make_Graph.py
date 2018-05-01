@@ -2,10 +2,11 @@
 from Process import Processing
 from matplotlib import pyplot as p
 
+# This class will use the formatted values from Processing to generate a line graph
 class Visualizing(Processing):
     def __init__(self):
         super(). __init__()
-
+   
     def LABELING(self):
         fig = p.figure(dpi=128,figsize=(10,6))
         title = 'Highs and Lows Weather Report in ' + self.locations[int(self.chose)]
