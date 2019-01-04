@@ -1,6 +1,7 @@
 # Weather_Graph_Generator
-The program will read a csv file of Weather data and generate a line graph
+The program will read a csv file of weather data and generate a line graphn showing the highs and lows temperature each day.
 
-*Currently the program only works with ct weather.csv file
+##Currently the program only works with ct_weather.csv file
 
-Realistically I should included all three classes in one file but in the beginning I find it much more legible if they're in seperate files.
+ ..* Why does it only work with ct_weather.csv file? 
+ 
