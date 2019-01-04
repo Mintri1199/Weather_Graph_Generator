@@ -24,3 +24,8 @@ In terminal
 ``` git clone https://github.com/Mintri1199/Weather_Graph_Generator``` 
 
 Then open the folder in Pycharm then run Make_Graph.py
+
+In your run console, input **ct_weather.csv** when asked for csv file name.
+![alt text](https://github.com/Mintri1199/Weather_Graph_Generator/blob/master/Initial%20startup.png)
+
+
