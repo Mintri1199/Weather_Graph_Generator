@@ -11,7 +11,11 @@ Quote break
 In a normal csv file (especially one for weather data), there should be number or string values separated by commas.
 
 Well, **ct_weather.csv** decided to make all its values into strings even the numbers.
+![alt text][csv bad]
+
+[csv bad]: https://github.com/Mintri1199/Weather_Graph_Generator/blob/master/bad_format.png
+
+Along with it's format, it also have some missing data as expected from data sets.
 
 
 
- 
