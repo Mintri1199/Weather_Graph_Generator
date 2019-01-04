@@ -38,4 +38,5 @@ When you get to this screen in your run console
 Simply enter a number that corresponded to a region of your interest and press enter. 
 What will happen next is the program will generate a graph visualizing the highs and lows of temperature in the selected region.
 
+![alt text](https://github.com/Mintri1199/Weather_Graph_Generator/blob/master/selected_graph.png)
 
