@@ -25,6 +25,8 @@ In terminal
 
 Then open the folder in Pycharm then run Make_Graph.py
 
+**Make sure you config your Pycharm settings to include matplotlib in the project interpreter**
+
 In your run console, input **ct_weather.csv** when asked for csv file name.
 ![alt text](https://github.com/Mintri1199/Weather_Graph_Generator/blob/master/Initial%20startup.png)
 
