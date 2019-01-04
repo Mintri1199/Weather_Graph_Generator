@@ -28,7 +28,9 @@ Then open the folder in Pycharm then run Make_Graph.py
 In your run console, input **ct_weather.csv** when asked for csv file name.
 ![alt text](https://github.com/Mintri1199/Weather_Graph_Generator/blob/master/Initial%20startup.png)
 
+
 When you get to this screen in your run console
+
 ![alt text](https://github.com/Mintri1199/Weather_Graph_Generator/blob/master/Region_selection.png)
 
 Simply enter a number that corresponded to a region of your interest and press enter. 
