@@ -9,7 +9,8 @@ Quote break
 
 ### What so weird about ct_weather.csv?
 In a normal csv file (especially one for weather data), there should be number or string values separated by commas.
-Well, **ct_weather.csv** decided to make all its values strings even the numbers.
+
+Well, **ct_weather.csv** decided to make all its values into strings even the numbers.
 
 
 
